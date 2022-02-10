@@ -30,24 +30,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#primaria">Primaria</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Propuestas
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#primaria">Primaria</a></li>
+                    <li><a class="dropdown-item" href="#section-a">Seccion A</a></li>
+                    <li><a class="dropdown-item" href="#section-b">Seccion B</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section-a">Sección A</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-b">Sección B</a>
+                  <a class="nav-link" href="#primaria">Cabildante</a>
                 </li>
             </ul>
         </div>
       </nav>
       <!-- Title -->
-      <div class="row">
+      <div class="row titles">
         <div class="col-lg-6">
-          <h1 class="big-text">Ana María González Personera 2022</h1>
-          <!-- <button class="btn btn-dark btn-lg down-btn" type="button"><i class="fab fa-apple"></i> Download</button>
-          <button class="btn btn-outline-light btn-lg down-btn" type="button"><i class="fab fa-google-play"></i> Download</button> -->
+          <h1 class="big-text">Ana María González</h1>
+          <span class="number">05</span>
+          <h2 class="slogan">"El Anglo que todos queremos"</h2>
+          <p>Hola, a continuación te presento las propuestas divididas en las diferentes secciones para el año 2022.</p>
         </div>
         <div class="col-lg-6">
           <img class="top-img" src="images/child.png" alt="iphone-mockup">
@@ -60,21 +65,66 @@
   <!-- Primaria -->
 
   <section class="white-sec" id="primaria">
+      <h2 class="title-p">Propuestas primaria</h2>
       <div class="row">
-        <div class="features-box col-lg-4">
-          <i class="fas fa-check-circle fa-5x"></i> 
-          <h3 class="features-title" > Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="card prima">
+            <img src="images/re.cicle.jpg" class="img-p" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Future Nostalgia</h3>
+              <p>Concursos ambientales de recolección de tapas, pilas o aceite. También podrás plantar árboles.</p>
+            </div>
+          </div>
         </div>
-        <div class="features-box col-lg-4">
-          <i class="fas fa-bullseye fa-5x"></i> 
-          <h3 class="features-title" > Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="card prima">
+            <img src="images/c.rafts.jpg" class="img-p" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">La zona</h3>
+              <p>Participa en clubes de fotografía, jardinería y manualidades como
+                extraescolares los días miércoles</p>
+            </div>
+          </div>
         </div>
-        <div class="features-box col-lg-4">
-          <i class="fas fa-heart fa-5x"></i>
-          <h3 class="features-title" >  Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="card prima">
+            <img src="images/.soccer.jpg" class="img-p" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">La selección</h3>
+              <p>Habrá campeonatos de fútbol, voleibol y basquetbol. ¡Podrás formar tu propio equipo!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card prima">
+            <img src="images/c.rafts.jpg" class="img-p" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Llegó el cartero</h3>
+              <p>Recibirás cartas de tus padres el día del amor y la amistad, donde te expresarán sus mejores deseos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card prima">
+            <img src="images/.soccer.jpg" class="img-p" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Recargarte</h3>
+              <p>Disfruta de actividades artísticas y
+              edportivas al final de cada periodo, así como pausas activas dos
+              veces al día.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card prima">
+            <img src="images/.mail.jpg" class="img-p" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">El Monasterio</h3>
+              <p>Te ayudamos a llenar el álbum Qatar
+              2022, intercambia fichas con tus compañeros de diferentes
+              grados.</p>
+            </div>
+          </div>
         </div>
       </div>
   </section>
@@ -83,25 +133,87 @@
   <!-- Sección A -->
 
   <section class="color-sec" id="section-a">
-    <div id="carouselTestimonials" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <h1 class="big-title">Propuestas Sección A</h1>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
       <div class="carousel-inner">
-        <h2 class="title-seca">Seccion A</h2>
         <div class="carousel-item active">
-          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img class="img-testimonials" src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+          <h2 class="seca-title">911 ACADEMIC CALL CENTER</h2>
+          <div class="proposal">
+            <p>Puesto remoto de ayuda académica, principalmente pensando en
+            asesorías para llevar a cabo informes y heurísticas de laboratorio.
+            </p>
+            <img src="images/911.svg" alt="">
+          </div>
         </div>
         <div class="carousel-item">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="img-testimonials" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
+          <h2 class="seca-title">LA ZONA</h2>
+          <div class="proposal">
+            <p>Participa en clubes de fotografía, jardinería y manualidades como
+            extraescolares los días miércoles. Presenta lo que hagas en una
+            galería que se realizará bimestralmente.</p>
+            <img src="images/garden.svg" alt="">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="seca-title"> BREATHING PILLS</h2>
+          <div class="proposal">
+            <p>Podrás tener charlas con profesionales en torno a salud mental (It's ok not
+              to be ok), trastornos psicológicos (Oxytocin), sobre menstruación
+              (I am a woman) y sexualidad (Acá entre nos).</p>
+            <img src="images/conference.svg" alt="">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="seca-title">LA SELECCIÓN</h2>
+          <div class="proposal">
+            <p>Habrá campeonatos de fútbol, voleibol y basquetbol. ¡Podrás formar tu propio equipo!</p>
+            <img src="images/soccer-a.svg" alt="">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="seca-title">FUTURE NOSTALGIA</h2>
+          <div class="proposal">
+            <p> Participa en concursos a partir de campañas de reciclaje de tapas
+              (tapitas por patitas), pilas, aceite, ropa y productos de higiene femenina, 
+              también podrás plantar árboles.</p>
+            <img src="images/recycle.svg" alt="">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="seca-title">RECARGARTE</h2>
+          <div class="proposal">
+            <p>Disfruta de actividades artísticas y
+              edportivas al final de cada periodo, así como pausas activas dos
+              veces al día.</p>
+            <img src="images/relax.svg" alt="">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="seca-title">EL MONASTERIO</h2>
+          <div class="proposal">
+            <p>¡Te ayudamos a llenar el álbum Qatar
+              2022, intercambia fichas con tus compañeros de diferentes
+              grados.!</p>
+            <img src="images/monas.svg" alt="">
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
       </button>
     </div>
   </section>
