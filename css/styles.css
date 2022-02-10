@@ -24,19 +24,32 @@ h1, h2, h3{
 }
 
 #title{
-    text-align: left;
+    text-align: center;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
 }
 
 .big-text{
     font-size: 3.5rem;
     line-height: 1.5;;
-    margin-bottom: 10%;
+}
+
+.slogan{
+    margin: 5%;
+}
+
+.number{
+    font-size: 7rem;
+    font-weight: 900;
 }
 
 /*Navigation Bar*/
 
 .navbar{
-    padding-bottom: 4.5rem;
+    padding-bottom: 2rem;
 }
 
 .navbar-brand{
@@ -53,84 +66,68 @@ h1, h2, h3{
     font-size: 1.5rem;
 }
 
-/*Download Buttons*/
 
-.down-btn{
-    margin: 5% 3% 5% 0;
-}
-
-/*Image*/
-
-.top-img{
-    transform: rotate(20deg);
-    position: absolute;
-}
-
-/*Features*/
+/*Primaria*/
 
 #primaria{
     padding: 5% 10%;
     position: relative;
 }
 
-.features-box{
-    padding: 5%;
+.title-p{
+    font-size: 3.5rem;
+    margin-bottom: 5%;
 }
 
-.features-box .fas{
-    color: #ef8172;
+.prima{
+    padding: 0;
+    margin: 3%;
 }
 
-.features-box .fas:hover{
-    color: #ff4c68;
+.img-p{
+    cursor: pointer;
+    height: 100px;
+    object-fit: cover;
 }
 
-.features-title {
-    padding: 10px;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
 
-.features-box p{
-    color: #8f8f8f;
-    font-size: 1.3rem;
-}
-
-/*Testimonials*/
+/*Seccion A*/
 
 #section-a{
     background-color: #ff4c68;
 }
 
+.big-title{
+    font-size: 3.5rem;
+    padding: 1%;
+}
+
 .carousel-item{
     padding: 3% 15%;
+    text-align: left;
 }
 
-.title-seca{
-    margin-top: 1rem;
+.seca-title{
+    font-size: 2.5rem;
 }
 
-.testimonial-text{
-    font-size: 3rem;
-    line-height: 1.5;
+.proposal{
+    display: flex;
+    align-items: center;
 }
 
-.img-testimonials{
-    border-radius: 100%;
-    height: 10%;
-    width: 10%;
-    margin: 10px;
+.proposal p{
+    width: 70%;
+    font-size: 2rem;
 }
 
-#press{
-    background-color: #ef8172;
-    padding-bottom: 1.5%;
+.proposal img{
+    margin-left: 15%;
+    height: 500px;
 }
 
-.img-press{
-    width: 10%;
-    margin: 25px;
-}
+
+
 
 /*Pricing Section*/
 
@@ -173,7 +170,36 @@ h1, h2, h3{
     
     .top-img{
         position: static;
-        transform: rotate(0);
+        height: 450px;
     }
 
+    /*Sec A*/
+
+    .carousel-item{
+        text-align: center;
+    }
+
+    .big-title{
+        font-size: 2rem;
+        padding: 1%;
+    }
+
+    .proposal{
+        display: block;
+        text-align: center;
+    }
+
+    .seca-title{
+        font-size: 1.5rem;
+    }
+
+    .proposal p{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .proposal img{
+        margin-left: 0;
+        height: 250px;
+    }
 }
