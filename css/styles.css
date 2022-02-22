@@ -1,0 +1,272 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/*Sections*/
+
+.color-sec{
+    background-color: #4CCFFD;
+    color: #fff
+}
+
+.white-sec{
+    background-color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/*Title*/
+
+#title{
+    text-align: center;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+}
+
+.big-text{
+    font-size: 3.5rem;
+    line-height: 1.5;;
+}
+
+.slogan{
+    margin: 5%;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+}
+
+.number{
+    font-size: 7rem;
+    font-weight: 900;
+}
+
+/*Navigation Bar*/
+
+.logo{
+    height: 170px;
+}
+
+.navbar{
+    padding-bottom: 1rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+
+/*Primaria*/
+
+#primaria, #cabildante{
+    padding: 5% 10%;
+    position: relative;
+}
+
+.title-p{
+    font-size: 3.5rem;
+}
+
+.prima{
+    padding: 0;
+    margin: 3%;
+}
+
+.img-p{
+    cursor: pointer;
+    height: 150px;
+    object-fit: cover;
+}
+
+.first-p{
+    font-size: 1.3rem;
+}
+
+
+/*Seccion A*/
+
+#section-a{
+    background-color: #4CCFFD;
+}
+
+.big-title{
+    font-size: 3.5rem;
+    padding: 1%;
+}
+
+.carousel-item{
+    padding: 3% 15%;
+    text-align: left;
+}
+
+.seca-title{
+    font-size: 2.5rem;
+}
+
+.proposal{
+    display: flex;
+    align-items: center;
+}
+
+.proposal p{
+    width: 70%;
+    font-size: 1.7rem;
+}
+
+.proposal img{
+    margin-left: 15%;
+    height: 500px;
+}
+
+
+
+
+/*Sección B*/
+
+#section-b{
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.price{
+    margin:5% 0;
+}
+
+.price p{
+    font-size: 1.2rem;
+}
+
+.img-secb{
+    height: 300px;
+    margin-left: 20%;
+}
+
+
+
+/*All*/
+
+#cta{
+    padding: 5% 20%;
+}
+
+.cta-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.all{
+    text-align: left;
+}
+
+.all p{
+    font-size: 1.3rem;
+    width: 50%;
+}
+
+.all-2{
+    text-align: right;
+}
+
+.all-2 p{
+    font-size: 1.3rem;
+    width: 50%;
+    margin-left: 50%;
+}
+
+/*Footer*/
+
+#footer{
+    padding: 3% 5%;
+}
+
+
+
+/*Media Query*/
+
+@media (max-width:1000px) {
+    
+    #title{
+        text-align: center;
+    }
+    
+    .top-img{
+        position: static;
+        height: 450px;
+    }
+
+    .logo{
+        height: 80px;
+    }
+
+    .slogan{
+        font-size: 3rem;
+    }
+
+    .paragraph{
+        font-size: 1.7rem;
+    }
+
+    /*Sec A*/
+
+    .carousel-item{
+        text-align: center;
+    }
+
+    .big-title{
+        font-size: 2rem;
+        padding: 1%;
+    }
+
+    .proposal{
+        display: block;
+        text-align: center;
+    }
+
+    .seca-title{
+        font-size: 1.5rem;
+    }
+
+    .proposal p{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .proposal img{
+        margin-left: 0;
+        height: 250px;
+    }
+
+    .img-secb{
+        margin-left: 30%;
+    }
+
+    .all p{
+        width: 100%;
+    }
+
+    .all-2 p{
+        width: 100%;
+        margin: 0;
+    }
+}
